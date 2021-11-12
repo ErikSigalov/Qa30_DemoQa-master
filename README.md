@@ -1,2 +1,1 @@
-# Qa30_DemoQa-master
- 
+# Qa30_DemoQa

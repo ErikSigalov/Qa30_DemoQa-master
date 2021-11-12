@@ -29,11 +29,4 @@ public class HelperBase {
         wd.findElement(locator).click();
 
     }
-    public void type(By locator, String text) {
-        if (text != null) {
-            click(locator);
-            wd.findElement(locator).clear();
-            wd.findElement(locator).sendKeys(text);
-        }
-    }
 }
